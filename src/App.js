@@ -6,7 +6,7 @@ class App extends React.Component {
   state = {
     peopleInSpace: []
   }
-};
+}
 
 componentDidMount() {
     fetch('http://api.open-notify.org/astros.json')
