@@ -1,9 +1,11 @@
 // create your App component here
 
-import React from 'react'peopleInSpace: []
+import React from 'react'
 
 class App extends React.Component {
   state = {
-    
+    peopleInSpace: []
   }
-}
+};
+
+
